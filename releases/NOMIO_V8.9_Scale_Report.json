@@ -1,0 +1,14 @@
+{
+  "files": 1000,
+  "import_request_seconds": 0.504,
+  "import_including_layout_seconds": 2.93,
+  "parameter_request_seconds": 0.029,
+  "parameter_including_layout_seconds": 0.665,
+  "ui_timer_ticks": 117,
+  "max_timer_gap_seconds": 0.265,
+  "first_row_height": 146,
+  "last_row_height": 165,
+  "required_last_row_height": 165,
+  "queue_item_preserved": true,
+  "files_unchanged": true
+}
