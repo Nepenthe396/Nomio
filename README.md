@@ -1,13 +1,21 @@
-# Nomio V8.7.0
+# Nomio V8.8.0
 
 批量重命名，先预览再执行。
 
-[下载 V8.7.0 源码包](https://github.com/Nepenthe396/Nomio/raw/refs/heads/main/releases/NOMIO_V8.7_Source.zip)
+**[下载 V8.8.0 源码包](https://github.com/Nepenthe396/Nomio/raw/refs/heads/main/releases/NOMIO_V8.8_Source.zip)**
 
-[查看界面](releases/NOMIO_V8.7_Preview.png) · [查看启动标志](releases/NOMIO_V8.7_Startup.png)
+[新版界面](releases/NOMIO_V8.8_Preview.png) · [新版引导](releases/NOMIO_V8.8_Guide.png)
 
-解压到新目录，运行 `NOMIO_V8.7/run.bat`。请确认标题显示 **Nomio 8.7.0 · 有序工作台**。本仓库提供源码包，不包含预编译Windows安装程序；旧版exe不会自动更新。
+解压到新目录，运行 `NOMIO_V8.8/run.bat`，确认窗口与副标题显示8.8.0。需要Python 3.10或更高版本。本包不含预编译exe，请勿启动旧版exe。
 
-本版移除冲击波与常驻鼠标装饰；提供宽幅原名/新名对照与直接可读的检查说明；记住已应用系统模板的参数；保留完整导航，并统一粗N标志。
+## 本版重点
 
-108项自动测试通过；Windows实机、高DPI和长期使用尚需验证。旧包保留于releases目录。
+- 遮罩式引导，真实按钮可点击；可用临时示例文件练习，支持上一步/跳过/Esc。设置可重新打开引导。
+- 明确显示数量与处理数量，新增“仅处理当前筛选结果”。
+- 系统模板参数在主界面直接编辑并联动预览；无效参数禁止执行。
+- 自动/固定日期、重新应用时重置起始编号，工作任务保留参数关联。
+- 无变化时禁止执行，确认框报告实际数量；完成和撤销只标记真正改动的文件。
+- 长名称换行与行高、主题差异标记和相邻检查说明；统一辅助字号，更多操作提供实际字体与DPI信息。
+- 完成后重复执行不会再次追加前缀；完整导航保留，没有冲击波或常驻鼠标装饰。
+
+119项自动测试通过；已检查Linux Qt明暗主题与三种分辨率。Windows实机字体、高DPI与长期使用尚需验收。旧版包保留在releases目录。
